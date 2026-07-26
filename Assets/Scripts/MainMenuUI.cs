@@ -10,7 +10,7 @@ public class MainMenuUI : MonoBehaviour
 
     public void OnStartClicked()
     {
-        // dagdag mo dito kung saan dapat pumunta ang "Start!" button
+        SceneManager.LoadScene("03_ModeSelection");
     }
 
     public void OnProgressClicked()
