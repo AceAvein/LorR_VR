@@ -411,7 +411,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 177280206}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 740215746}
+        m_TargetAssemblyTypeName: ModeSelectUI, Assembly-CSharp
+        m_MethodName: OnModeSelected
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 10_PenTracing
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &177280206
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -532,7 +544,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 203722470}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 740215746}
+        m_TargetAssemblyTypeName: ModeSelectUI, Assembly-CSharp
+        m_MethodName: OnModeSelected
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 07_ObjectPlacement
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &203722470
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -653,7 +677,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 245587764}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 740215746}
+        m_TargetAssemblyTypeName: ModeSelectUI, Assembly-CSharp
+        m_MethodName: OnModeSelected
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 09_ReactionLight
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &245587764
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2309,7 +2345,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1221932920}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 740215746}
+        m_TargetAssemblyTypeName: ModeSelectUI, Assembly-CSharp
+        m_MethodName: OnModeSelected
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 08_BallDrop
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1221932920
 MonoBehaviour:
   m_ObjectHideFlags: 0
