@@ -20,11 +20,11 @@ public class MainMenuUI : MonoBehaviour
 
     public void OnSettingsClicked()
     {
-        // dagdag mo dito kung saan dapat pumunta ang "Settings" button
+        SceneManager.LoadScene("04_Settings");
     }
 
     public void OnTutorialClicked()
     {
-        // dagdag mo dito kung saan dapat pumunta ang "Tutorial" button
+        SceneManager.LoadScene("05_Tutorial");
     }
 }
