@@ -4,7 +4,7 @@ using System.Collections;
 
 public class SplashScreenController : MonoBehaviour
 {
-    public float displayDuration = 3f;
+    public float displayDuration = 2f;
     public string nextSceneName = "01_ProfileSelection";
 
     void Start()
