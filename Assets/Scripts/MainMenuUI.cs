@@ -15,7 +15,7 @@ public class MainMenuUI : MonoBehaviour
 
     public void OnProgressClicked()
     {
-        // dagdag mo dito kung saan dapat pumunta ang "Progress" button
+        SceneManager.LoadScene("11_Progress");
     }
 
     public void OnSettingsClicked()
@@ -26,5 +26,10 @@ public class MainMenuUI : MonoBehaviour
     public void OnTutorialClicked()
     {
         SceneManager.LoadScene("05_Tutorial");
+    }
+
+    public void OnBackClicked()
+    {
+        SceneManager.LoadScene("02_MainMenu");
     }
 }
