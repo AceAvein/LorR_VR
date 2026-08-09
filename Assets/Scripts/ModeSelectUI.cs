@@ -13,4 +13,8 @@ public class ModeSelectUI : MonoBehaviour
     {
         SceneManager.LoadScene("02_MainMenu");
     }
+    public void OnTrainingRangeClicked()
+    {
+        SceneManager.LoadScene("06_TrainingRange");
+    }
 }
