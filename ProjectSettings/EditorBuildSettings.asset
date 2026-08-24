@@ -44,6 +44,9 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/12_EndSession.unity
     guid: 5a392cb3e1afb654ab18f6f20c60c63b
+  - enabled: 1
+    path: Assets/Scenes/Test_scene2.unity
+    guid: 2956e09b7fbc5e64fb4ed355b95074a8
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 052faaac586de48259a63d0c4782560b, type: 3}
     com.unity.xr.management.loader_settings: {fileID: 11400000, guid: 1c878d50bfe3d9b459790858fe282360, type: 2}
