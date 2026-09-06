@@ -27,12 +27,30 @@ public class GameManager : MonoBehaviour
 
     public void OnStartPressed()
     {
-        handLocker.LockToNonDominantHand(isLeftNonDominant, leftController, rightController);
-        ShowOnly(countdownScreen);
-        countdownUI.OnCountdownFinished = BeginTracing;
-        countdownUI.StartCountdown();
-    }
+        Debug.Log("[GameManager] OnStartPressed called successfully!");
 
+        // Guard 1: Safety check for HandLocker
+        if (handLocker != null)
+        {
+            handLocker.LockToNonDominantHand(isLeftNonDominant, leftController, rightController);
+        }
+        else
+        {
+            Debug.LogWarning("[GameManager] HandLocker is missing/unassigned in the Inspector!");
+        }
+
+        // Guard 2: Safety check for CountdownUI
+        if (countdownUI != null)
+        {
+            ShowOnly(countdownScreen);
+            countdownUI.OnCountdownFinished = BeginTracing;
+            countdownUI.StartCountdown();
+        }
+        else
+        {
+            Debug.LogError("[GameManager] CountdownUI is missing/unassigned in the Inspector!");
+        }
+    }
     void BeginTracing()
     {
         ShowOnly(hudScreen);
